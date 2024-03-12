@@ -1,0 +1,53 @@
+body{
+    background-image: url(/Project\ Images/girl.webp);
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+#date{
+    border: 1px solid transparent;
+
+    text-align: center;
+}
+.container{
+    height: 4rem;
+    background-color: rgba(255, 255, 255, 0.593);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    box-shadow: 5px 5px 10px transparent ;
+}
+.wrapper{
+    margin-top: 3px;
+    border-radius: 10px;
+
+}
+button{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 1px transparent;
+    background-color: transparent;
+}
+.container img{
+    height: 2rem;
+    background-color: transparent;
+}
+
+.cards{
+    margin: 40px;
+    height: 30rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards div{
+    height: 20rem;
+    width: 16rem;
+    border: 1px solid black;
+    
+}

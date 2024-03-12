@@ -8,11 +8,21 @@
     border-radius: 50%;
     background-color: rgba(0, 255, 255, 0.426);
     box-shadow: 2px 2px 15px black;
-    animation-name: move;
+    /* animation-name: move;
     animation-duration: 4s;
-    animation-delay: 1s;
-    position: relative;
-    /* animation-iteration-count: 3; */
+    animation-delay: 1s; */
+    position: absolute;
+    animation: moving 4s linear 1s infinite;
+}
+@keyframes moving {
+    from{left: 0px;
+        top: 0px;
+        
+    }
+    to{
+        top: 60%;
+        left: 60%;
+    }
 }
 @keyframes move {
     0%   {background-color:red; left:0px; top:0px;}
@@ -21,3 +31,7 @@
     75%  {background-color:green; left:0px; top:100%;}
     100% {background-color:red; left:0px; top:0px;}
   }
+
+  /* div {
+    animation: example 5s linear 2s infinite alternate;
+  } */
