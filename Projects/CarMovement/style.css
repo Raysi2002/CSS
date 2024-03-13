@@ -1,0 +1,29 @@
+.path{
+    height: 12rem;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.624);
+}
+.box{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    animation-name: move;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+.box img{
+    height: 7rem;
+    width: 10rem;
+}
+@keyframes move {
+    from{
+        width: 10rem;
+    }
+    to{
+        width: 100%;
+    }
+}
